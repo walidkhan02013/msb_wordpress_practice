@@ -1,0 +1,23 @@
+.date , .day {
+background-color: coral;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+}
+
+.day{
+    background-color:rgb(183, 179, 175);
+    font-size: 1em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,50px);
+    row-gap: 10px;
+    column-gap: 10px;
+ 
+;
+}
